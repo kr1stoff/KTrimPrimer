@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="160a513e-2cb6-4ea0-a9a5-4be5d93d1ad8" name="更改" comment="240528">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/kmlab/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/CommandLineReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionReceiver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionConstructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionsCorrector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/kmlab/MainTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionReceiver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/kmlab/SimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/kmlab/SimpleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/kmlab/cli/OptionConstructorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/kmlab/cli/OptionConstructorTest.java" afterDir="false" />
     </list>
@@ -36,6 +33,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -59,27 +57,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.KTrimPrimer [clean].executor": "Run",
-    "Maven.KTrimPrimer [compile].executor": "Run",
-    "Maven.KTrimPrimer [install].executor": "Run",
-    "Maven.KTrimPrimer [test].executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/WY1010/IdeaProjects/KTrimPrimer",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/WY1010/IdeaProjects/KTrimPrimer/src/main/java/org/kmlab/Main.java",
-    "settings.editor.selected.configurable": "preferences.sourceCode",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.KTrimPrimer [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.KTrimPrimer [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.KTrimPrimer [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.KTrimPrimer [test].executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/WY1010/IdeaProjects/KTrimPrimer&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/WY1010/IdeaProjects/KTrimPrimer/src/main/java/org/kmlab/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.kmlab" />
@@ -219,7 +217,7 @@
       <workItem from="1716863636476" duration="1545000" />
       <workItem from="1716865882638" duration="266000" />
       <workItem from="1716866161928" duration="2737000" />
-      <workItem from="1716875892706" duration="8439000" />
+      <workItem from="1716875892706" duration="9589000" />
     </task>
     <task id="LOCAL-00001" summary="240528">
       <option name="closed" value="true" />
@@ -237,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716881454356</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="240528">
+      <option name="closed" value="true" />
+      <created>1716884876893</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716884876893</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

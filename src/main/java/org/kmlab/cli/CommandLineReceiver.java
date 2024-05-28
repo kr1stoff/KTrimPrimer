@@ -8,7 +8,12 @@ import org.apache.commons.cli.ParseException;
 import org.apache.commons.cli.HelpFormatter;
 import org.apache.commons.cli.Option;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class CommandLineReceiver {
+    private static final Logger logger = LogManager.getLogger(CommandLineReceiver.class);
+
     private static final Options options = new Options();
     private static final CommandLineParser parser = new DefaultParser();
 
@@ -23,12 +28,14 @@ public class CommandLineReceiver {
         options.addOption(Option.builder("r")
                 .longOpt("reference")
                 .hasArg(true)
+                .required(true)
                 .argName("file")
                 .desc("(必需) 参考基因组,与引物信息文件参考一致.")
                 .build());
         options.addOption(Option.builder("P")
                 .longOpt("primers")
                 .hasArg(true)
+                .required(true)
                 .argName("file")
                 .desc("(必需) 引物信息文件,五列chrom,left_start,left_end,right_start,right_end,详见fgbio TrimPrimers.")
                 .build());
@@ -68,17 +75,16 @@ public class CommandLineReceiver {
                 .argName("int")
                 .desc("(可选) 最大并行数. [default: 1]")
                 .build());
-        options.addOption("h", "help", false, "打印帮助信息.");
     }
 
-    public static CommandLine get(String[] args) {
+    public static CommandLine parseOptions(String[] args) {
+        logger.info("解析命令行参数");
         try {
             return parser.parse(options, args);
         } catch (ParseException e) {
             printHelp();
-            System.exit(1);
+            throw new RuntimeException("命令行解析失败: " + e.getMessage());
         }
-        return null;
     }
 
     public static void printHelp() {

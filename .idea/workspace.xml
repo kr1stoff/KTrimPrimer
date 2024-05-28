@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="160a513e-2cb6-4ea0-a9a5-4be5d93d1ad8" name="更改" comment="">
+    <list default="true" id="160a513e-2cb6-4ea0-a9a5-4be5d93d1ad8" name="更改" comment="240528">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/kmlab/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/kmlab/SimpleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/CommandLineReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/CommandLineReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionConstructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/kmlab/cli/OptionConstructorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/kmlab/cli/OptionConstructorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="test" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,6 +61,7 @@
     "Maven.KTrimPrimer [clean].executor": "Run",
     "Maven.KTrimPrimer [compile].executor": "Run",
     "Maven.KTrimPrimer [install].executor": "Run",
+    "Maven.KTrimPrimer [test].executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -72,10 +79,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.kmlab" />
       <recent name="org.kmlab.cli" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.KTrimPrimer [compile]">
+  <component name="RunManager" selected="Maven.KTrimPrimer [test]">
     <configuration name="KTrimPrimer [compile]" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -149,6 +157,42 @@
       </extension>
       <method v="2" />
     </configuration>
+    <configuration name="KTrimPrimer [test]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="test" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -171,8 +215,18 @@
       <workItem from="1716795908010" duration="10262000" />
       <workItem from="1716863636476" duration="1545000" />
       <workItem from="1716865882638" duration="266000" />
-      <workItem from="1716866161928" duration="1619000" />
+      <workItem from="1716866161928" duration="2737000" />
+      <workItem from="1716875892706" duration="5505000" />
     </task>
+    <task id="LOCAL-00001" summary="240528">
+      <option name="closed" value="true" />
+      <created>1716874880002</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716874880002</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +242,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="240528" />
+    <option name="LAST_COMMIT_MESSAGE" value="240528" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

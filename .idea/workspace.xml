@@ -4,17 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="160a513e-2cb6-4ea0-a9a5-4be5d93d1ad8" name="更改" comment="240528">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+    <list default="true" id="160a513e-2cb6-4ea0-a9a5-4be5d93d1ad8" name="更改" comment="240529 检查命令行参数">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/module/FASTQPreparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/util/SoftwarePathFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/software.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/kmlab/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/CommandLineReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionReceiver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionConstructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionsCorrector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/kmlab/MainTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/kmlab/SimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/kmlab/SimpleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionReceiver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/kmlab/cli/OptionConstructorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/kmlab/cli/OptionConstructorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +36,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -64,7 +65,7 @@
     "Maven.KTrimPrimer [clean].executor": "Run",
     "Maven.KTrimPrimer [compile].executor": "Run",
     "Maven.KTrimPrimer [install].executor": "Run",
-    "Maven.KTrimPrimer [test].executor": "Debug",
+    "Maven.KTrimPrimer [test].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -219,7 +220,8 @@
       <workItem from="1716863636476" duration="1545000" />
       <workItem from="1716865882638" duration="266000" />
       <workItem from="1716866161928" duration="2737000" />
-      <workItem from="1716875892706" duration="8439000" />
+      <workItem from="1716875892706" duration="14623000" />
+      <workItem from="1716945307476" duration="6664000" />
     </task>
     <task id="LOCAL-00001" summary="240528">
       <option name="closed" value="true" />
@@ -237,7 +239,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716881454356</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="240528">
+      <option name="closed" value="true" />
+      <created>1716884876893</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716884876893</updated>
+    </task>
+    <task id="LOCAL-00004" summary="240528 行分隔符">
+      <option name="closed" value="true" />
+      <created>1716886032586</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716886032586</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,7 +274,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="240528" />
-    <option name="LAST_COMMIT_MESSAGE" value="240528" />
+    <MESSAGE value="240528 行分隔符" />
+    <MESSAGE value="240529 检查命令行参数" />
+    <option name="LAST_COMMIT_MESSAGE" value="240529 检查命令行参数" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

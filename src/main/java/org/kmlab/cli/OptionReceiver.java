@@ -77,6 +77,12 @@ public class OptionReceiver {
                 .build());
     }
 
+    /**
+     * Parses the command line arguments using the provided options.
+     *
+     * @param args the command line arguments to be parsed
+     * @return a CommandLine object containing the parsed options
+     */
     public static CommandLine parseOptions(String[] args) {
         logger.info("解析命令行参数");
         try {
@@ -87,6 +93,9 @@ public class OptionReceiver {
         }
     }
 
+    /**
+     * Prints the help message for the program.
+     */
     public static void printHelp() {
         HelpFormatter formatter = new HelpFormatter();
         formatter.printHelp("KTrimPrimer",

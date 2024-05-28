@@ -3,7 +3,7 @@ package org.kmlab;
 import org.junit.Test;
 
 public class SimpleTest {
-//    @Test
+    @Test
     public void test() {
         System.out.println("Hello world!");
     }

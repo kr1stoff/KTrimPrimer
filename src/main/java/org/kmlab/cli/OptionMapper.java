@@ -7,8 +7,8 @@ import org.apache.logging.log4j.Logger;
 import java.util.HashMap;
 import java.util.Map;
 
-public class OptionsMapper {
-    private static final Logger logger = LogManager.getLogger(OptionsMapper.class);
+public class OptionMapper {
+    private static final Logger logger = LogManager.getLogger(OptionMapper.class);
 
     public static Map<String, Object> generateMapOptions(CommandLine commandLine) {
         logger.info("命令行参数写入字典");

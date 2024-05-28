@@ -1,6 +1,5 @@
 package org.kmlab.cli;
 
-import org.apache.commons.cli.CommandLine;
 import org.junit.Test;
 
 import java.util.Map;

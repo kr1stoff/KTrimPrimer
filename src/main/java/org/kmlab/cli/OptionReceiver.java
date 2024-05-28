@@ -11,8 +11,8 @@ import org.apache.commons.cli.Option;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class CommandLineReceiver {
-    private static final Logger logger = LogManager.getLogger(CommandLineReceiver.class);
+public class OptionReceiver {
+    private static final Logger logger = LogManager.getLogger(OptionReceiver.class);
 
     private static final Options options = new Options();
     private static final CommandLineParser parser = new DefaultParser();

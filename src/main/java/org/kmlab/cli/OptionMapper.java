@@ -17,7 +17,7 @@ public class OptionMapper {
      * @return a Map<String, Object> containing the extracted options
      */
     public static Map<String, Object> generateMapOptions(CommandLine commandLine) {
-        logger.info("命令行参数写入字典");
+        logger.info("Write command line options to map.");
         Map<String, Object> optionMap = new HashMap<>();
         optionMap.put("inputFastq1", commandLine.getOptionValue("input-fastq1"));
         optionMap.put("reference", commandLine.getOptionValue("reference"));

@@ -84,18 +84,15 @@ public class OptionReceiver {
      * @return a CommandLine object containing the parsed options
      */
     public static CommandLine parseOptions(String[] args) {
-        logger.info("解析命令行参数");
+        logger.info("Parse command line options.");
         try {
             return parser.parse(options, args);
         } catch (ParseException e) {
             printHelp();
-            throw new RuntimeException("命令行解析失败: " + e.getMessage());
+            throw new RuntimeException("Parse command line options failed: " + e.getMessage());
         }
     }
 
-    /**
-     * Prints the help message for the program.
-     */
     public static void printHelp() {
         HelpFormatter formatter = new HelpFormatter();
         formatter.printHelp("KTrimPrimer",

@@ -4,18 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="160a513e-2cb6-4ea0-a9a5-4be5d93d1ad8" name="更改" comment="240529 检查命令行参数">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/module/FASTQPreparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/util/SoftwarePathFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/software.properties" afterDir="false" />
+    <list default="true" id="160a513e-2cb6-4ea0-a9a5-4be5d93d1ad8" name="更改" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/java/org/kmlab/Main.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/module/ResultDirectoryMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/util/CommandExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/kmlab/module/ResultDirectoryMakerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/kmlab/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionConstructor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionReceiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/kmlab/cli/OptionConstructorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/kmlab/cli/OptionConstructorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/kmlab/module/FASTQPreparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/module/FastqPreparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/kmlab/util/SoftwarePathFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/util/SoftwarePathFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/kmlab/SimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/kmlab/SimpleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,13 +32,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -77,8 +85,13 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/WY1010/IdeaProjects/KTrimPrimer/src/main/java/org/kmlab/Main.java",
-    "settings.editor.selected.configurable": "preferences.sourceCode",
+    "settings.editor.selected.configurable": "rsyncConfigurable",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -87,7 +100,7 @@
       <recent name="org.kmlab.cli" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.KTrimPrimer [test]">
+  <component name="RunManager" selected="Maven.KTrimPrimer [compile]">
     <configuration name="KTrimPrimer [compile]" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -221,7 +234,11 @@
       <workItem from="1716865882638" duration="266000" />
       <workItem from="1716866161928" duration="2737000" />
       <workItem from="1716875892706" duration="14623000" />
-      <workItem from="1716945307476" duration="6664000" />
+      <workItem from="1716945307476" duration="8818000" />
+      <workItem from="1716966002133" duration="924000" />
+      <workItem from="1716967189528" duration="12000" />
+      <workItem from="1716967988807" duration="8209000" />
+      <workItem from="1717031727299" duration="4783000" />
     </task>
     <task id="LOCAL-00001" summary="240528">
       <option name="closed" value="true" />
@@ -255,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716886032586</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="240529 检查命令行参数">
+      <option name="closed" value="true" />
+      <created>1716952467176</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716952467176</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +301,8 @@
     <MESSAGE value="240528" />
     <MESSAGE value="240528 行分隔符" />
     <MESSAGE value="240529 检查命令行参数" />
-    <option name="LAST_COMMIT_MESSAGE" value="240529 检查命令行参数" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/java/org/kmlab/Main.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/java/org/kmlab/Main.java" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

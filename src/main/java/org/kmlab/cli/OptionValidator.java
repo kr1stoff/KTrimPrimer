@@ -11,34 +11,26 @@ public class OptionValidator {
     private static final Logger logger = LogManager.getLogger(OptionValidator.class);
 
     /**
-     * Validates the command line options provided in the optionMap. This includes checking for the existence of required files and validating integer options.
+     * Validates the command line options provided in the option map.
+     * Ensures necessary files exist and required integer options are set.
      *
-     * @param optionMap a map containing the command line options to validate. Expected keys and their corresponding validations include:
-     *                  <ul>
-     *                      <li>"inputFastq1" - the path to the first input FASTQ file, validated to ensure the file exists.</li>
-     *                      <li>"reference" - the path to the reference file, validated to ensure the file exists.</li>
-     *                      <li>"primers" - the path to the primers file, validated to ensure the file exists.</li>
-     *                      <li>"inputFastq2" - the path to the second input FASTQ file, validated to ensure the file exists if present.</li>
-     *                      <li>"minimumLength" - an integer value, validated to ensure it is a valid integer, defaulting to "40" if not provided.</li>
-     *                      <li>"offset" - an integer value, validated to ensure it is a valid integer, defaulting to "1" if not provided.</li>
-     *                      <li>"parallel" - an integer value, validated to ensure it is a valid integer, defaulting to "1" if not provided.</li>
-     *                  </ul>
-     *
-     * This method logs the validation process and all provided options.
-     *
-     * @throws IllegalArgumentException if any of the required files do not exist or if any of the integer options are invalid.
+     * @param optionMap A map containing the command line options as key-value pairs.
      */
     public static void validate(Map<String, Object> optionMap) {
-        logger.info("Validate command line options.");
+        logger.info("Validate command line options");
+
         validateFileExists((String) optionMap.get("inputFastq1"));
         validateFileExists((String) optionMap.get("reference"));
         validateFileExists((String) optionMap.get("primers"));
         validateFastq2Exists((String) optionMap.get("inputFastq2"));
+
         validateInteger(optionMap, "minimumLength", "40");
         validateInteger(optionMap, "offset", "1");
         validateInteger(optionMap, "parallel", "1");
+
         optionMap.forEach((key, value) -> logger.info("{}: {}", key, value));
     }
+
 
     public static void validateFileExists(String queryFile) {
         if (!Files.exists(Paths.get(queryFile))){

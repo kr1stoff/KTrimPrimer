@@ -27,7 +27,7 @@ public class SoftwarePathFinder {
      * This method logs the process of obtaining the software path map.
      */
     public static Map<String, String> getSoftwareMap() {
-        logger.debug("Obtain the software path map.");
+        logger.info("Obtain the software path map");
         String propertyFilePath = "software.properties";
         Properties properties = new Properties();
         Map<String, String> softwarePathMap = new HashMap<>();
@@ -47,13 +47,13 @@ public class SoftwarePathFinder {
     }
 
     public static String getBwaPath() {
-        logger.debug("Get BWA path.");
+        logger.debug("Get BWA path");
         Map<String, String> softwareMap = getSoftwareMap();
         return softwareMap.get("bwa");
     }
 
     public static String getVsearchPath() {
-        logger.debug("Get VSEARCH path.");
+        logger.debug("Get VSEARCH path");
         Map<String, String> softwareMap = getSoftwareMap();
         return softwareMap.get("vsearch");
     }

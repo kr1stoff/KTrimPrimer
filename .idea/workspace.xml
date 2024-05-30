@@ -4,13 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="160a513e-2cb6-4ea0-a9a5-4be5d93d1ad8" name="更改" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/java/org/kmlab/Main.java">
+    <list default="true" id="160a513e-2cb6-4ea0-a9a5-4be5d93d1ad8" name="更改" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/module/BwaAligner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/module/PrimerTrimmer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/module/ReferencePreparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/util/ThreadNumberGetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/kmlab/module/BwaAlignerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/kmlab/module/FastqPreparatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/kmlab/module/ReferencePreparatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/kmlab/other/HTSJDKTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/kmlab/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionConstructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/cli/OptionValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/kmlab/module/FastqPreparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/module/FastqPreparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/kmlab/module/ResultDirectoryMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/module/ResultDirectoryMaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/kmlab/module/ResultDirectoryMakerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/kmlab/module/ResultDirectoryMakerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/kmlab/util/CommandExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/util/CommandExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/kmlab/util/SoftwarePathFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kmlab/util/SoftwarePathFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/kmlab/SimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/kmlab/other/SimpleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,10 +58,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;kr1stoff&quot;
-  }
+  &quot;lastFilter&quot;: {}
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
@@ -70,38 +85,45 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.KTrimPrimer [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.KTrimPrimer [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.KTrimPrimer [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.KTrimPrimer [test].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/WY1010/IdeaProjects/KTrimPrimer&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/WY1010/IdeaProjects/KTrimPrimer/src/main/java/org/kmlab/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDK&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.37126437&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.KTrimPrimer [clean].executor": "Run",
+    "Maven.KTrimPrimer [compile].executor": "Run",
+    "Maven.KTrimPrimer [install].executor": "Run",
+    "Maven.KTrimPrimer [test].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/WY1010/IdeaProjects/KTrimPrimer",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/WY1010/IdeaProjects/KTrimPrimer/src/main/java/org/kmlab/Main.java",
+    "project.structure.last.edited": "SDK",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.37126437",
+    "settings.editor.selected.configurable": "Errors",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.kmlab" />
@@ -250,6 +272,9 @@
       <workItem from="1717049439468" duration="261000" />
       <workItem from="1717049723063" duration="46000" />
       <workItem from="1717049804258" duration="3000" />
+      <workItem from="1717049854266" duration="7049000" />
+      <workItem from="1717057217588" duration="4417000" />
+      <workItem from="1717117864349" duration="17038000" />
     </task>
     <task id="LOCAL-00001" summary="240528">
       <option name="closed" value="true" />
@@ -307,7 +332,31 @@
       <option name="project" value="LOCAL" />
       <updated>1717036870688</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="240530">
+      <option name="closed" value="true" />
+      <created>1717050070603</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717050070603</updated>
+    </task>
+    <task id="LOCAL-00009" summary="240530">
+      <option name="closed" value="true" />
+      <created>1717050079704</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1717050079704</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1717050104299</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1717050104299</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,7 +379,9 @@
     <MESSAGE value="240529 检查命令行参数" />
     <MESSAGE value="prepare fastq" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/java/org/kmlab/Main.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/java/org/kmlab/Main.java" />
+    <MESSAGE value="240530" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

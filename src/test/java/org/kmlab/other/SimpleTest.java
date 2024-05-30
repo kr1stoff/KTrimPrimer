@@ -1,4 +1,4 @@
-package org.kmlab;
+package org.kmlab.other;
 
 import org.junit.Test;
 
@@ -11,5 +11,5 @@ public class SimpleTest {
         System.out.println(outputDirectory);
 
         System.out.println("Hello world!");
-    }
+        }
 }

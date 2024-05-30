@@ -84,7 +84,7 @@ public class OptionReceiver {
      * @return a CommandLine object containing the parsed options
      */
     public static CommandLine parseOptions(String[] args) {
-        logger.info("Parse command line options.");
+        logger.info("Parse command line options");
         try {
             return parser.parse(options, args);
         } catch (ParseException e) {

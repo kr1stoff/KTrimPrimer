@@ -10,7 +10,7 @@ public class OptionConstructor {
     private static final Logger logger = LogManager.getLogger(OptionConstructor.class);
 
     public static Map<String, Object> getOptionMap(String[] args) {
-        logger.info("Run the command line argument constructor.");
+        logger.info("Run the command line argument constructor");
         CommandLine commandLine = OptionReceiver.parseOptions(args);
         Map<String, Object> optionMap = OptionMapper.generateMapOptions(commandLine);
         OptionValidator.validate(optionMap);

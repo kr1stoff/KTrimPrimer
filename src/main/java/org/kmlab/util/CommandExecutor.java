@@ -33,7 +33,7 @@ public class CommandExecutor {
      */
     public static void execute(String command, String logFile) {
         logger.info("Executing command: {}", command);
-        ProcessBuilder processBuilder = new ProcessBuilder(command);
+        ProcessBuilder processBuilder = new ProcessBuilder("/bin/bash", "-c", command);
 
         try {
             Process process = processBuilder.start();

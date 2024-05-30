@@ -18,7 +18,7 @@ public class ResultDirectoryMaker {
      * @return the path to the created temporary work directory as a string.
      *
      * @throws RuntimeException if an IOException occurs while creating the directory.
-     *
+     * <p>
      * This method:
      * <ul>
      *     <li>Extracts the directory path from the given output FASTQ file path.</li>
@@ -28,8 +28,8 @@ public class ResultDirectoryMaker {
      */
     public static String makeDirectory(String outputFastq) {
         String outputDirectory = outputFastq.substring(0, outputFastq.lastIndexOf("/"));
-        logger.info("Making work directory {}", outputDirectory);
-        Path workDirectoryPath = Paths.get(outputDirectory + ".ktrimprimer_temp");
+        Path workDirectoryPath = Paths.get(outputDirectory, "ktrimprimer_temp");
+        logger.info("Making work directory {}", workDirectoryPath.toString());
 
         try {
             Files.createDirectories(workDirectoryPath);

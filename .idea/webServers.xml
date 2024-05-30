@@ -5,7 +5,7 @@
       <webServer id="4b535592-6f33-4a75-b1b0-c7be14d53111" name="58 - k">
         <fileTransfer rootFolder="/sdbb/bioinfor/mengxf/GitHub" accessType="SFTP" host="172.16.0.58" port="22" sshConfigId="a9ec21a2-fec4-4cd9-8fbb-1195443a7aa2" sshConfig="mengxf@172.16.0.58:22 password">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" isUseRsync="true" />
           </advancedOptions>
         </fileTransfer>
       </webServer>

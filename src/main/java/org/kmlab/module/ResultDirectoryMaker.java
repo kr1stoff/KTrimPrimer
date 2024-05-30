@@ -28,6 +28,7 @@ public class ResultDirectoryMaker {
      */
     public static String makeDirectory(String outputFastq) {
         String outputDirectory = outputFastq.substring(0, outputFastq.lastIndexOf("/"));
+        logger.info("Making work directory {}", outputDirectory);
         Path workDirectoryPath = Paths.get(outputDirectory + ".ktrimprimer_temp");
 
         try {

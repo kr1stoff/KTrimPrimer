@@ -25,7 +25,7 @@ public class Main {
         final String OUTPUT_FASTQ = (String) optionMap.get("outputFastq");
         final String REFERENCE = (String) optionMap.get("reference");
         final String PRIMERS =  (String) optionMap.get("primers");
-        final String MINIMUM_LENGTH = (String) optionMap.get("minimumLength");
+        final int MINIMUM_LENGTH = (int) optionMap.get("minimumLength");
         final String OFFSET = (String) optionMap.get("offset");
         final String PARALLEL = (String) optionMap.get("parallel");
         final Boolean INCLUDE = (Boolean) optionMap.get("include");

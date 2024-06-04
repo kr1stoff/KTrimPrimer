@@ -26,7 +26,7 @@ public class HTSJDKTest {
                 System.out.println();
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
     }
 }
